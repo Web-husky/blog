@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "./bin/server.js",
+  "scripts": {
+    "dev": "nodemon ./bin/server.js"
+  },
+  "author": "pupeng",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  },
+  "bin": {
+    "blog": "server.js"
+  },
+  "dependencies": {},
+  "keywords": [],
+  "description": ""
+}
