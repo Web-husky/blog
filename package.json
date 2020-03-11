@@ -15,5 +15,13 @@
   },
   "dependencies": {},
   "keywords": [],
-  "description": ""
+  "description": "...\r mkdir blog\r cd bog\r mkdir bin\r touch server.js\r npm init\r npm install corss-env save-dev\r ...\r ## 配置package.josn\r >配置入口文件 和scripts快捷键 npm \r run ev --->nodemon bin/server.js\r ...\r {\r   \"name\": \"blog\",\r   \"version\": \"1.0.0\",\r   \"main\": \"./bin/server.js\",\r   \"scripts\": {\r     \"dev\": \"nodemon ./bin/server.js\"\r   },\r   \"author\": \"pupeng\",\r   \"license\": \"ISC\",\r   \"devDependencies\": {\r     \"cross-env\": \"^7.0.2\"\r   },\r   \"bin\": {\r     \"blog\": \"server.js\"\r   },\r   \"dependencies\": {},\r   \"keywords\": [],\r   \"description\": \"\"\r }",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Web-husky/blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Web-husky/blog/issues"
+  },
+  "homepage": "https://github.com/Web-husky/blog#readme"
 }
